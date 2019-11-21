@@ -28,7 +28,7 @@ ProductDetailScreen.navigationOptions = navData => {
 const styles = StyleSheet.create({
     image: {
         width: '100%',
-        height: 320
+        height: 300
     },
     price: {
         fontSize: 20,
