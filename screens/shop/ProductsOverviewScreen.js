@@ -66,7 +66,7 @@ const ProductsOverviewScreen = props => {
         <Button
           title="Try again"
           onPress={loadProducts}
-          color={Colors.primary}
+          color={Colors.secundary}
         />
       </View>
     );
@@ -111,7 +111,7 @@ const ProductsOverviewScreen = props => {
             }}
           />
           <Button
-            color={Colors.primary}
+            color={Colors.accent}
             title="To Cart"
             onPress={() => {
               dispatch(cartActions.addToCart(itemData.item));
