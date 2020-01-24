@@ -84,9 +84,9 @@ const AuthScreen = props => {
       await dispatch(action);
       props.navigation.navigate('Shop');
     } catch (err) {
-      setError(err.message);
-      setIsLoading(false);
-    }    
+      setError(err.message);   
+      setIsLoading(false);   
+    }        
   };
 
   const inputChangeHandler = useCallback(
